@@ -1,0 +1,33 @@
+# HackathonProject
+Automation Testing Project in Selenium
+TITLE: (1) Display the name & price of first 3 Bookshelves below Rs. 15000, with Storage type as open & exclude out of stock
+       (2) Display first 3 study chairs with highest recommendation.
+       (3) Display and retrieve all sub-menu items under Being-At-home 
+       (4) Choose "Birthday/Anniversay" gift card, fill details with any one input invalid (example: email); Capture the error message
+
+
+Important components included:
+1)Followed coding standards, naming conventions and code comment standards. 
+2)A Maven Project created.
+3)POM applied with proper TestNG  concepts.
+4)Multiple browser execution-It should be able to be handled using two browsers(used Chrome and Edge)
+5)Data driven concept applied - Input data should be imported from an external file.
+6)All the result are written in an excel file.
+7)Created Module wise specific reusable functions.
+8)Created Test Scripts for smoke and regression suites.
+9)Exceptions must be handled using exception handling.
+10)Implemented Maven and Jenkins.
+
+Challenges Faced:
+1) Price slider in site needed to be set to appropriate limit which was tough task to perform.
+2) Xpath for various object kept changing, Hence changes in code were to be made very frequently.
+3) Stale Element Reference Exception was coming so we used try catch for that.
+4) Implementing Maven and Jenkins was for first created minor issues during execution.
+
+
+Things that could have better:
+Price slider in the used site was supposed to be set at 15,000 but the slider is being set at 15,220. So for the slider value can be set to exact value that would have been better.
+
+
+Experience:
+Overall experience from this activity was quite amazing. Complete team worked together to perform the various given tasks and even helped each other to overcome any difficulties. Through the activity, learned and implemented various concepts that enhanced our skills.
